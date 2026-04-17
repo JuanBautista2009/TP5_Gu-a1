@@ -14,13 +14,13 @@ public class CalculoPersonalizado : MonoBehaviour
     void Start()
     {
         resultadoSuma = num1+num2;
-        Debug.Log("El resultado de la suma entre " + num1 + " y " + num2 " es: " + resultadoSuma);
+        Debug.Log("El resultado de la suma entre " + num1 + " y " + num2 + " es: " + resultadoSuma);
         resultadoResta = num1-num2;
-        Debug.Log("El resultado de la resta entre " + num1 + " y " + num2 " es: " + resultadoResta);
+        Debug.Log("El resultado de la resta entre " + num1 + " y " + num2 + " es: " + resultadoResta);
         resultadoMultiplicacion = num1*num2;
-        Debug.Log("El resultado de la multiplicacion entre " + num1 + " y " + num2 " es: " + resultadoMultiplicacion);
+        Debug.Log("El resultado de la multiplicacion entre " + num1 + " y " + num2 + " es: " + resultadoMultiplicacion);
         resultadoDivision = num1/num2;
-        Debug.Log("El resultado de la division entre " + num1 + " y " + num2 " es: " + resultadoDivision);
+        Debug.Log("El resultado de la division entre " + num1 + " y " + num2 + " es: " + resultadoDivision);
         }
 
     void Update()
